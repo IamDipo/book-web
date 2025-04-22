@@ -75,7 +75,7 @@ nav ul li a:hover {
     gap: 20px;
     padding: 15px;
     border-radius: 10px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
     /* background: rgba(255, 255, 255, 0.1); */
 }
 
