@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/e7be8ef1-4b6b-45cb-a99b-40753894ce20.webp" type="image/x-icon">
+    <title>Payment Success</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Payment Successful!</h1>
+    <p>Your payment was processed successfully✅ </p>
+    <p>Card ending in: <span id="last-four"></span></p>
+    <script>
+        document.getElementById("last-four").textContent = localStorage.getItem("lastFour");
+    </script>
+</body>
+</html>
